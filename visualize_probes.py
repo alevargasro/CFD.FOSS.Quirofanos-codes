@@ -45,6 +45,9 @@ PROBE_SEARCH_DIRS = [
     "Specific_functions",
     "system/functions",
     "functions",
+    "system/specificFunctions",
+    "specificFunctions",
+
 ]
 
 TOPOSET_SEARCH_PATHS = [
@@ -88,6 +91,8 @@ def resolve_file_path(filename):
         "triSurface",
         "system/Specific_functions",
         "Specific_functions",
+        "system/specificFunctions",
+        "specificFunctions",
         "system/functions",
         "system",
         ".",

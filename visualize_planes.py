@@ -49,6 +49,8 @@ PLANE_SEARCH_DIRS = [
     "system/functions",
     "functions",
     "system",
+    "system/specificFunctions",
+    "specificFunctions"
 ]
 
 DEFAULT_DOMAIN_FILE = "constant/triSurface/walls.stl"
@@ -91,6 +93,8 @@ def resolve_file_path(filename):
         "General_functions",
         "system/functions",
         "system",
+        "system/specificFunctions",
+        "specificFunctions",
         ".",
         "..",
         "../constant/triSurface",
